@@ -15,6 +15,14 @@ app.get('/', function(req,res) {
     res.sendFile('views/root_redirect.html', {root: __dirname})
 });
 
+app.get('/blank', function (req, res) {
+    res.sendFile('/index.html', {root: path.join(__dirname,"Views/BlankBuild")})
+})
+
+app.get('/webgl', function (req, res) {
+    res.sendFile('/index.html', {root: path.join(__dirname,"Views/WebGL_Build")})
+})
+
 const run = http.listen(PORT, () => {
     console.log("server is running!");
 })

@@ -16,11 +16,11 @@ app.get('/', function(req,res) {
 });
 
 app.get('/blank', function (req, res) {
-    res.sendFile('/index.html', {root: __dirname})
+    res.sendFile('views/BlankBuild/index.html', {root: __dirname})
 })
 
 app.get('/webgl', function (req, res) {
-    res.sendFile('/index.html', {root: __dirname})
+    res.sendFile('views/WebGL_Build/index.html', {root: __dirname})
 })
 
 const run = http.listen(PORT, () => {

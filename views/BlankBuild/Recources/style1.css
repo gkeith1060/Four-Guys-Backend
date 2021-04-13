@@ -6,8 +6,6 @@ body, html{
 
 .bg{
     height: 100%;
-
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,14 +15,12 @@ body, html{
 .bar
 {
     color: #fff;
-    margin-top:20px;
+   position:relative;
+   margin-bottom:5%;
+   margin-top:5%;
 }
 
 .sp{
  position:relative;
  top: 50px;    
-}
-
-.center{
-    text-align: center;
 }

@@ -9,9 +9,9 @@
     -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Four Guys</title>
-    <link rel="shortcut icon" href="BlankBuild/TemplateData/favicon.ico">
-    <link rel="stylesheet" href="BlankBuild/TemplateData/style.css">
-    <link rel="stylesheet" href="BlankBuild/Recources/style1.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="Recources/style1.css">
 
 
 
@@ -24,13 +24,12 @@
 
 
 <!--    <link rel="stylesheet" href="BlankBuild/TemplateData/style.css">-->
-<!--    <link rel="stylesheet" href="../assets/css/styles.css">-->
     <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.css" />
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="BlankBuild/TemplateData/style.css">
+    <link rel="stylesheet" href="TemplateData/style.css">
 
-    <script src="BlankBuild/TemplateData/UnityProgress.js"></script>
-    <script src="BlankBuild/Build/UnityLoader.js"></script>
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
 
 
         <!-- Latest compiled and minified CSS -->
@@ -52,7 +51,7 @@
     -->
 </head>
 
-<body class = "bg" style="background-image: url('BlankBuild/Recources/background2.jpg');">
+<body class = "bg" style="background-image: url('Recources/bernieandthefloor.png');">
 
     <!--
     <header class="header-dark">
@@ -105,12 +104,12 @@
     -->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <ul class="navbar-nav">
-            <li class="navbar-item active">
+            <li class="navbar-item active" href='#'>
                 <a class="navbar-brand"> 4 Guys
                 </a>
             </li>
             <li class="navbar-item">
-                <a class="nav-link">
+                <a class="nav-link" href='aboutUs.html'>
                     About Us
                 </a>
             </li>
@@ -174,13 +173,20 @@
         
     </div>
 -->
-<div class="container bar" >
+
         
-    <h2 class="center">
-      Bernie Sanders VS Climate Change
-    </h2>
-  </div >
-<div id="unity-container" class="unity-desktop" style='top:60%'>
+   
+
+
+
+
+<div id="unity-container" class="unity-desktop">
+    <div class='bar text-center'>
+        <h2>
+            Bernie Sanders VS Climate Change
+        </h2>
+    </div>
+
     <canvas id="unity-canvas"></canvas>
     <div id="unity-loading-bar">
       <div id="unity-logo"></div>
@@ -198,7 +204,7 @@
     </div>
   </div>
   <script>
-    var buildUrl = "BlankBuild/Build";
+    var buildUrl = "Build";
     var loaderUrl = buildUrl + "/WebGL_Build.loader.js";
     var config = {
       dataUrl: buildUrl + "/WebGL_Build.data",
@@ -247,7 +253,10 @@
     document.body.appendChild(script);
 
 </script>
-    </header>
+
+
+
+
 
     <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
@@ -273,7 +282,7 @@
 
     </script>
 
-    <script src="BlankBuild/scripts.js"></script>
+    <script src="scripts.js"></script>
 
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>

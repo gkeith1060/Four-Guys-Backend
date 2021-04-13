@@ -20,7 +20,10 @@ body, html{
    margin-top:5%;
 }
 
-.sp{
- position:relative;
- top: 50px;    
+.login {
+    margin-right:25px;
 }
+.signUp{
+    margin-right: 15px;
+}
+
